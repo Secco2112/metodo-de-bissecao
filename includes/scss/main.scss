@@ -1,0 +1,58 @@
+.main-content{
+	.content{
+		max-width: 1170px;
+		margin: 0 auto;
+		.wrapper{
+			padding: 1.5rem;
+			#bissecao-form{
+				max-width: 800px;
+				margin: 0 auto;
+				.row{
+					margin: 0;
+					justify-content: space-between;
+					&.calculate{
+						justify-content: center;
+						margin-top: 25px;
+						button{
+							margin: 0 15px;
+						}
+					}
+					.form-group{
+						.hint{
+							font-size: 13px;
+						}
+						&.math-function{
+							width: 35%;
+						}
+						&.interval{
+							width: 20%;
+						}
+						&.absolute-error{
+							width: 20%;
+						}
+						&.decimal-places{
+							width: 15%;
+						}
+					}
+				}
+			}
+
+			.table-wrapper{
+				display: none;
+				margin-top: 25px;
+			}
+
+			.result-wrapper{
+				display: none;
+				text-align: center;
+				margin-top: 30px;
+				.result-text{
+					font-size: 22px;
+				}
+				.result-data{
+					font-size: 25px;
+				}
+			}
+		}
+	}
+}

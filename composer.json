@@ -1,0 +1,15 @@
+{
+    "name": "Bisseção",
+    "description": "Pequena aplicação que resolve equações envolvendo o método da bisseção.",
+    "authors": [
+        {
+            "name": "Gustavo Marmentini",
+            "email": "gustavomarini9@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "denissimon/formula-parser": "^2.5",
+        "twbs/bootstrap": "4.1.3"
+    }
+}
