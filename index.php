@@ -82,6 +82,5 @@
 	<script src="includes/js/jquery.min.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
-	<script src="vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script src="includes/js/script.js" type="text/javascript"></script>
 </html>
