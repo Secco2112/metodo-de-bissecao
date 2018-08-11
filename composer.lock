@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c22ed2d192ff21c68cb3e3f76900c6ca",
+    "content-hash": "c82971845aa4cbd0fce48096d78e118e",
     "packages": [
         {
             "name": "denissimon/formula-parser",
