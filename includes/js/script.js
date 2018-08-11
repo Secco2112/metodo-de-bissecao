@@ -17,7 +17,7 @@ function make_count() {
 
 		
 		$.ajax({
-			url: PATH + '/bissecao/includes/ajax/calculates.php',
+			url: PATH + '/includes/ajax/calculates.php',
 			type: 'post',
 			dataType: 'json',
 			data: ({
