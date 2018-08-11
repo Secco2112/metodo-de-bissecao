@@ -1,7 +1,5 @@
 <?php
-
 	require_once __DIR__ . '/vendor/autoload.php';
-
 ?>
 
 
@@ -11,7 +9,7 @@
 	<title>Método de Bisseção</title>
 	<link href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
 	<link rel="stylesheet" type="text/css" href="includes/css/main.css">
-	<meta name="application-path" content="<?= $_SERVER["REQUEST_SCHEME"] . "://" . $_SERVER["HTTP_HOST"] ?>">
+	<meta name="application-path" content="<?= dirname($_SERVER["SCRIPT_FILENAME"]) ?>">
 </head>
 <body>
 	<main class="main-content">

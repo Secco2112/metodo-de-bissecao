@@ -15,9 +15,9 @@ function make_count() {
 			absolute_error = $("#absolute-error").val(),
 			decimal_places = $("#decimal-places").val() || 4;
 
-		
+			
 		$.ajax({
-			url: PATH + '/includes/ajax/calculates.php',
+			url: window.location.href + 'includes/ajax/calculates.php',
 			type: 'post',
 			dataType: 'json',
 			data: ({
